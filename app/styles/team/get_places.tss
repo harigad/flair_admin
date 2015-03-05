@@ -1,0 +1,23 @@
+".btn":{
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color:"#fff",
+	backgroundColor:"transparent",
+	height:50,left:10,right:10,bottom:10
+}
+
+"#container":{
+	width:Alloy.Globals.width,
+	visible:false
+}
+
+".please_wait":{
+	visible:true,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	height:Ti.UI.SIZE,
+	color:"#fff",
+	font:{
+		fontSize:36
+	}
+}
+
+

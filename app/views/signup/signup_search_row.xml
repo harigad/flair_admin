@@ -1,0 +1,6 @@
+<Alloy>
+	<TableViewRow height="Ti.UI.SIZE" layout="vertical" onClick="onClick" backgroundImage="common/trans.png">
+		<Label id="title"></Label>
+		<Label id="address"></Label>
+	</TableViewRow>
+</Alloy>

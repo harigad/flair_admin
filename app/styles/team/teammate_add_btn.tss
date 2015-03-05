@@ -1,0 +1,13 @@
+"#name":{
+	font:{
+		fontSize:34,
+		fontWeight:"normal"
+	},
+	color:"#fff"
+}
+
+"#name[formFactor=handheld]":{
+	font:{
+		fontSize:18
+	}
+}

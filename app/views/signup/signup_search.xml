@@ -1,0 +1,10 @@
+<Alloy>
+	<Window backgroundImage="common/blur_cafe.jpg" >
+		<Require type="view" src="components/ui/header" id="header" >
+	 			<View height="Ti.UI.SIZE" id="main" borderRadius="4" backgroundColor="#fff" layout="horizontal" >
+						<Require type="view" src="components/ui/text_field" id="search" onChange="onChange" _hintText="find your business (ex: Bob's cafe Dallas Texas)" />
+				</View>
+				<TableView id="results"  ></TableView>
+		</Require>
+	</Window>
+</Alloy>

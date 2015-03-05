@@ -1,0 +1,5 @@
+<Alloy>
+	<Window backgroundImage="common/blur_cafe.jpg" >
+	 	<Require src="home/home" id="home" ></Require>
+	</Window>
+</Alloy>

@@ -1,0 +1,10 @@
+<Alloy>
+	<Window  backgroundColor="#eee">
+		<Require type="view" src="components/ui/header" id="header" >
+				<View height="Ti.UI.SIZE"  width="Ti.UI.SIZE" top="50" bottom="50"  layout="horizontal"  >
+					<Label  class="btn" id="join" onClick="goToSignup">login</Label>
+					<Label class="btn"  id="login_btn" onClick="getAccess" >join</Label>
+				</View>
+		</Require>
+	</Window>
+</Alloy>

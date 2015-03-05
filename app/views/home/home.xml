@@ -1,0 +1,6 @@
+<Alloy>
+	<Require type="view" src="components/ui/header" id="header" >
+		
+		
+	</Require>
+</Alloy>

@@ -1,0 +1,19 @@
+<Alloy>
+	   	<View width="Ti.UI.FILL"  top="0" height="Ti.UI.SIZE" backgroundImage="common/trans.png" >
+	   		<View id="title_header" layout="horizontal" height="Ti.UI.SIZE" top="20" bottom="20" >
+	 			<View id="logo" onClick="goBack" ></View>
+	 			<Label class="title" id="title"></Label>
+	 		</View>
+	 		<View width="Ti.UI.SIZE" height="Ti.UI.SIZE" right="40" layout="horizontal" id="right_buttons" >
+	 			<Label id="logout" class="title" onClick="toggleLog" >login</Label>
+	 		</View>
+	 	</View>
+     	<ScrollView height="Ti.UI.FILL" top="90" >
+	 				<View height="Ti.UI.SIZE" >
+	 					<View height="Ti.UI.SIZE" layout="vertical" id="home" top="5" >
+	 						
+	 									 					
+	 					</View>
+	 				</View>
+	 	</ScrollView>
+</Alloy>

@@ -1,0 +1,17 @@
+".btn":{
+	width:200,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color:"#fff",
+	backgroundColor:"#1782e6",
+	height:50,
+	borderRadius:4
+}
+
+"#join":{
+	
+	right:100
+}
+
+"#login_btn":{
+	left:100
+}

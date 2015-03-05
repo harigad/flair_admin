@@ -1,0 +1,40 @@
+"#logo":{
+	width:40,height:40,
+	backgroundImage:"common/logo_40_40.png"
+}
+
+"#logout":{
+	color:"#fff",
+	shadowColor: '#888',
+  	shadowOffset: {x:1, y:1},
+  	shadowRadius: 3
+}
+
+".title":{height:40,
+	left:10,width:Ti.UI.SIZE,
+	color:"#e1e1e1",
+	font:{
+		fontSize:24
+	}
+}
+
+
+"#logout[formFactor=handheld]":{
+	visible:false
+}
+
+
+"#title":{
+	color:"#fff",top:10,
+	shadowColor: '#888',
+  	shadowOffset: {x:1, y:1},
+  	shadowRadius: 3
+}
+
+"#title_header":{
+	left:20
+}
+
+"#home":{
+	width:Alloy.Globals.width
+}

@@ -1,0 +1,21 @@
+<Alloy>
+	<Window backgroundImage="common/blur_cafe.jpg" >
+				<View height="Ti.UI.SIZE"  layout="vertical" id="container" >
+	 				<View left="10" right="10" height="Ti.UI.SIZE" id="main" top="5" bottom="5" borderRadius="4" backgroundColor="#fff" layout="vertical"  >
+						<Require type="view" src="components/ui/text_field" id="name" _hintText="full name" />
+						<Require type="view" src="components/ui/text_field" id="email" _hintText="email" />
+						<Require type="view" src="components/ui/text_field" id="role" _hintText="title (ex:Manager,Investor)" />
+						<Label class="btn" id="btn" onClick="save" left="0" right="0" >save</Label>
+					</View>
+					<Label class="btn" id="remove" onClick="remove" borderRadius="4" bottom="5"  backgroundColor="#990000">remove</Label>
+					<Label class="btn" id="cancel" onClick="cancel" borderRadius="4" backgroundImage="common/trans.png" backgroundColor="transparent">cancel</Label>
+				</View>
+				<View id="confirm_delete" height="Ti.UI.SIZE"  layout="vertical">
+					<View top="0" bottom="10" width="50" height="50" borderRadius="25" borderWidth="3" borderColor="#fff" backgroundColor="#ccc" id="photo" ></View>
+ 					<Label id="confirm_remove_text" ></Label>
+					<Label class="btn" onClick="remove_confirm" borderRadius="4" bottom="5"  backgroundColor="#990000">remove</Label>
+					<Label class="btn" onClick="remove_cancel" borderRadius="4" backgroundImage="common/trans.png" backgroundColor="transparent">cancel</Label>
+				</View>
+				<Label id="please_wait" >saving...</Label>
+	</Window>
+</Alloy>

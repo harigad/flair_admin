@@ -1,0 +1,9 @@
+<Alloy>
+	<Window   backgroundImage="common/blur_cafe.jpg" >
+		<Require type="view" src="components/ui/header" id="header" >
+				<View height="Ti.UI.SIZE" id="teammates" top="20" left="10" right="10" layout="vertical"  >
+	 				
+				</View>
+		</Require>
+	</Window>
+</Alloy>

@@ -1,0 +1,39 @@
+".btn":{
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color:"#fff",
+	backgroundColor:"#1782e6",
+	height:50,left:10,right:10
+}
+
+"#container":{
+	width:Alloy.Globals.width
+}
+
+"#confirm_delete":{
+	width:Alloy.Globals.width,
+	visible:false
+}
+
+"#confirm_remove_text":{
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	height:Ti.UI.SIZE,
+	left:10,right:10,
+	bottom:10,
+	color:"#fff",
+	font:{
+		fontSize:18
+	}
+}
+
+
+"#please_wait":{
+	visible:false,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	height:Ti.UI.SIZE,
+	color:"#fff",
+	font:{
+		fontSize:36
+	}
+}
+
+

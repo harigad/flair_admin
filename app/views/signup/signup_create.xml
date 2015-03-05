@@ -1,0 +1,20 @@
+<Alloy>
+	<Window backgroundImage="common/blur_cafe.jpg" >
+			<View height="Ti.UI.SIZE" layout="vertical" id="container" >
+		<Label id="address" top="10"></Label>
+		<View height="250" id="main" top="10" borderRadius="4" left="10" right="10" backgroundColor="#fff" >
+		 <!-- Note the ns attribute is used to change the default namespace. -->
+        <View id="mapview" top="20" bottom="20" left="20" right="20" ns="Ti.Map"  latitudeDelta="0.01" longitudeDelta="0.01" onComplete="setRegion" animate="true" regionFit="true"  mapType="Ti.Map.STANDARD_TYPE" >
+            <Annotation id="mountainView"
+              latitude="37.390749" longitude="-122.081651"
+              title="Appcelerator Headquarters" subtitle="Mountain View, CA"
+              pincolor="Titanium.Map.ANNOTATION_RED"
+              leftButton="/images/appcelerator_small.png"
+              myid="1"/>
+        </View>
+				</View>	
+		<Label class="btn"  id="login_btn" onClick="create" >I certify that I am the Manager of this Business.</Label>
+		<Label class="btn" onClick="cancel"  backgroundImage="common/trans.png" backgroundColor="transparent" >cancel</Label>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,11 @@
+<Alloy>
+	<Window backgroundImage="common/blur_cafe.jpg" >
+				<View height="Ti.UI.SIZE"  layout="vertical" id="container" >
+	 				<View left="10" right="10" height="Ti.UI.SIZE" id="main" borderRadius="4" layout="vertical"  >
+						<Label class="please_wait" id="please_wait" bottom="10" >SELECT</Label>
+					</View>
+					<Label class="btn" id="cancel" onClick="cancel" borderRadius="4" backgroundImage="common/trans.png" backgroundColor="transparent">logout</Label>
+				</View>
+				<Label class="please_wait" id="please_wait" >loading...</Label>
+	</Window>
+</Alloy>

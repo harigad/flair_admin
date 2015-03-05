@@ -1,0 +1,24 @@
+<Alloy>
+	<View  bottom="1" backgroundImage="common/trans.png" borderRadius="2" height="Ti.UI.SIZE" onClick="edit" >
+		<View layout="horizontal" height="Ti.UI.SIZE" top="10" bottom="10" left="20"  >
+			 <View top="0" width="50" height="50" borderRadius="25" borderWidth="3" borderColor="#fff" backgroundColor="#ccc" id="photo" right="10"></View>
+ 			 <View layout="vertical" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+ 				<Label id="name" left="10" height="Ti.UI.SIZE" color="#fff" ></Label>
+ 				<Label id="role" class="desc" left="10" height="Ti.UI.SIZE" color="#eee"  >manager,investor</Label>
+ 				<Label id="desc" class="desc" left="10" height="Ti.UI.SIZE"  ></Label>
+ 				
+ 				
+ 			<View  left="10" top="10" height="Ti.UI.SIZE" width="Ti.UI.SIZE" layout="horizontal" id="btns" >
+ 				<View class="btn" id="remove">
+ 		    		<Label   class="btn_label"  onClick="edit" >edit</Label>
+ 		    	</View>
+ 				<View class="btn" id="invite_btn" >
+ 					<Label id="invite_label"  class="btn_label"  onClick="invite" >send invite</Label>
+ 				</View>
+ 				
+ 			</View>
+ 				
+ 			</View>
+ 		</View>
+ 	</View>
+</Alloy>

@@ -1,0 +1,22 @@
+".btn":{
+	width:Ti.UI.FILL,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color:"#fff",
+	backgroundColor:"#1782e6",
+	height:50,
+	borderRadius:4
+}
+
+"#results":{
+	left:10,right:10,
+	height:400
+}
+
+"#main":{
+	left:10,right:10,
+	top:120
+}
+
+"#main[formFactor=handheld]":{
+	top:10
+}

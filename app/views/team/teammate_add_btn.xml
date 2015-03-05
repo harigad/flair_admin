@@ -1,0 +1,8 @@
+<Alloy>
+	<View  bottom="1" backgroundColor="#1782e6" borderRadius="2" height="Ti.UI.SIZE" onClick="onClick" >
+		<View layout="horizontal" height="Ti.UI.SIZE" top="20" bottom="20" left="20"  >
+			 <View width="50" height="50" borderRadius="25" borderWidth="3" borderColor="#fff" backgroundColor="#ccc" id="photo" right="10"></View>
+ 				<Label id="name" left="10" height="Ti.UI.SIZE" color="#fff" >ADD NEW TEAMMATE</Label>
+ 			</View>
+ 		</View>
+</Alloy>

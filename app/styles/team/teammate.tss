@@ -1,0 +1,33 @@
+".desc":{
+	top:2,
+	font:{
+		fontSize:12,
+		fontWeight:"normal"
+	},
+	color:"#eee"
+}
+
+".btn":{
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	borderRadius:4,color:"#fff",
+	backgroundColor:"#1782e6",
+	left:0,right:10
+}
+
+".btn_label":{
+	font:{
+		fontSize:12
+	},
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	left:20,right:20,top:10,bottom:10
+}
+
+"#invite_btn":{
+	visible:false
+}
+
+"#resend_btn":{
+	visible:false
+}
